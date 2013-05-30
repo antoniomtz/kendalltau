@@ -6,7 +6,7 @@ public int kendallTauDistance(IComparable[] a, IComparable[] b)
             {
                 for (int j = i+1; j < a.Length; j++)
                 {
-                    if (a[i, 0].CompareTo(a[j, 0]) != b[i].CompareTo(b[j]))                    
+                    if (a[i].CompareTo(a[j]) != b[i].CompareTo(b[j]))                    
                         inversions++;
                                            
                 }
